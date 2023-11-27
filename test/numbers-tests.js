@@ -249,7 +249,7 @@ describe('core-js-numbers', () => {
       'isNumber returns a boolean value indicating whether a number or not',
       () => {
          assert.equal(
-            tasks.isNumber(Infinity),
+            tasks.ber(Infinity),
             false,
             'value Infinity is not a number'
          );
